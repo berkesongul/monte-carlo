@@ -1,4 +1,4 @@
-# 🎯 Monte Carlo Pi Estimation
+#  Monte Carlo Pi Estimation
 
 A visual and interactive project that estimates the mathematical constant **π (Pi)** using the [Monte Carlo method](https://en.wikipedia.org/wiki/Monte_Carlo_method) — one of the most elegant applications of randomness in computational mathematics.
 
@@ -6,7 +6,7 @@ Inspired by the [MarbleScience YouTube channel](https://www.youtube.com/@MarbleS
 
 ---
 
-## 🧠 The Idea
+## The Idea
 
 Imagine dropping marbles randomly onto a square surface that has a circular bowl inscribed inside it. Some marbles land inside the circle, some land outside. The ratio of marbles inside the circle to the total gives us a way to estimate Pi:
 
@@ -16,7 +16,7 @@ As more marbles are dropped, the estimate converges to the true value of Pi (**3
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 | File | Description |
 |------|-------------|
@@ -25,14 +25,14 @@ As more marbles are dropped, the estimate converges to the true value of Pi (**3
 
 ---
 
-## 🚀 Simulations
+## Simulations
 
 ### 1. 2D Simulation (`monte-carlo-pi.py`)
 
 An interactive Pygame window where marbles drop onto a square canvas one by one:
 
-- 🔴 **Red** dots land **inside** the inscribed circle (hits)
-- 🔵 **Blue** dots land **outside** the circle (misses)
+-  **Red** dots land **inside** the inscribed circle (hits)
+-  **Blue** dots land **outside** the circle (misses)
 - A **live info panel** shows total points, hits, current Pi estimate, and error margin
 - On closing the window, a **Matplotlib line graph** displays how the Pi estimate converged over time
 
@@ -52,7 +52,7 @@ A 3D scatter plot visualizes the result, with red points inside the sphere and b
 
 ---
 
-## 📦 Requirements
+## Requirements
 
 | Library | Purpose | Install |
 |---------|---------|---------|
@@ -69,7 +69,7 @@ pip install pygame matplotlib numpy
 
 ---
 
-## ▶️ Usage
+## ▶ Usage
 
 ```bash
 # Run the 2D simulation (Pygame window + convergence graph)
@@ -81,7 +81,7 @@ python monte-carlo-pi-3d.py
 
 ---
 
-## 🔬 How It Works
+##  How It Works
 
 ### The Math Behind It
 
@@ -105,6 +105,6 @@ The estimate improves as more points are sampled. With just a few hundred points
 
 ---
 
-## 📄 License
+## License
 
 This project is licensed under the [MIT License](LICENSE).
